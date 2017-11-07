@@ -26,7 +26,7 @@ def generateCent(data,k):
 
 if __name__=="__main__":
     filen = 'Aggregation'
-    filename = r'D:\\tmp\\synthetic_data\\'+filen+'.txt'
+    filename = r'D:\\synthetic_data\\'+filen+'.txt'
     k = 7
 
     file = loadtxt(filename,delimiter=',')
@@ -84,7 +84,7 @@ if __name__=="__main__":
     # Y = array(centroids[:, 1])
     #plt.scatter(X[:,0],Y[:,0] , c=tt,marker='v',s=20)
 
-    plt.savefig("k-means "+filen+".png")
+    plt.savefig("k-means2 "+filen+".png")
     plt.show()
 
 

@@ -25,7 +25,7 @@ def generateCent(data,k):
 
 if __name__=="__main__":
     filen = 'Aggregation'
-    filename = r'D:\\tmp\\synthetic_data\\'+filen+'.txt'
+    filename = r'D:\\synthetic_data\\'+filen+'.txt'
     k = 7
 
     file = loadtxt(filename,delimiter=',')

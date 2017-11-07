@@ -63,22 +63,22 @@ def dbscan(data, eps, minpoints):
 
 if __name__=="__main__":
     # filen = 'Aggregation'
-    # filename = r'D:\\tmp\\synthetic_data\\' + filen + '.txt'
+    # filename = r'D:\\synthetic_data\\' + filen + '.txt'
     # eps = 2
     # minpoints = 17
 
     # filen = 'flame'
-    # filename = r'D:\\tmp\\synthetic_data\\' + filen + '.txt'
+    # filename = r'D:\\synthetic_data\\' + filen + '.txt'
     # eps = 2
     # minpoints = 23
 
     # filen = 'R15'
-    # filename = r'D:\\tmp\\synthetic_data\\' + filen + '.txt'
+    # filename = r'D:\\synthetic_data\\' + filen + '.txt'
     # eps = 0.5
     # minpoints = 14
 
     filen = 'flame'
-    filename = r'D:\\tmp\\synthetic_data\\' + filen + '.txt'
+    filename = r'D:\\synthetic_data\\' + filen + '.txt'
     eps = 2
     minpoints = 23
 
