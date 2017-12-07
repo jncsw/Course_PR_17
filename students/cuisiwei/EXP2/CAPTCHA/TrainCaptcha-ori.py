@@ -125,9 +125,9 @@ if __name__ == '__main__':
         # 选定可视化存储目录
         writer = tf.summary.FileWriter("./CAPTCHA/Graph/", sess.graph)
 
-        #sess.run(tf.global_variables_initializer());
+        sess.run(tf.global_variables_initializer());
         #saver.restore(sess,'./CAPTCHA/model.ckpt')
-        saver.restore(sess,"./CAPTCHA/model.ckpt");
+        #saver.restore(sess,"./CAPTCHA/model.ckpt");
         for i in range(CaptchaAttr['time']):
             img,label = nxt_batch();
 
